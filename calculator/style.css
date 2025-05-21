@@ -1,7 +1,3 @@
-#calculator {
-    
-}
-
 .calcBtn {
     width: 100px;
     height: 100px;
@@ -10,6 +6,9 @@
 
 #answer {
     display: inline;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
+.blue {
+    color: blue;
+}
