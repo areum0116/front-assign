@@ -6,7 +6,11 @@ const lottoNum = document.querySelectorAll(".lottoNum")
 function handleLottoBtnClick() {
     numbers = [];
     for(let i = 0; i < 6; i++) {
-        numbers.push(Math.floor(Math.random() * 45) + 1);
+        let number = Math.floor(Math.random() * 45) + 1;
+        while(numbers.includes(number)) {
+            number = Math.floor(Math.random() * 45) + 1;
+        }
+        numbers.push(number);
     }
     numbers.sort((a, b) => a - b);
 
