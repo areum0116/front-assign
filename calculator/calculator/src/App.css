@@ -1,0 +1,14 @@
+.calcBtn {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#answer {
+    display: inline;
+    padding-left: 100px;
+}
+
+.blue {
+    color: blue;
+}
