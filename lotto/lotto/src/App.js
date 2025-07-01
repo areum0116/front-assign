@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [numbers, setNumbers] = useState([0, 0, 0, 0, 0, 0]);
+  const [numbers, setNumbers] = useState([]);
 
   const onLottoBtnClick = () => {
     const nums = [];

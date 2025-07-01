@@ -17,7 +17,7 @@ function App() {
     }
 
     setInput(newInput);
-    setDisplay(value);
+    setDisplay(newInput[newInput.length - 1]);
     setIsResult(false);
   };
 
